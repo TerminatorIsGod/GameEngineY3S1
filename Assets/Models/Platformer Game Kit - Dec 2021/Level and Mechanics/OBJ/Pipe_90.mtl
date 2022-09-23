@@ -1,12 +1,3 @@
-# Blender MTL File: 'Pipe_90.blend'
-# Material Count: 1
-
-newmtl Pipe
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.069519 0.137383 0.261097
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
+version https://git-lfs.github.com/spec/v1
+oid sha256:042d38612359b8dfa8f45d6e00c5e2c2e763e2f5868f2b8d6dc4de1e47730b80
+size 233

@@ -1,12 +1,3 @@
-# Blender MTL File: 'Numbers_0.blend'
-# Material Count: 1
-
-newmtl White
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.451838 0.474059 0.404914
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
+version https://git-lfs.github.com/spec/v1
+oid sha256:ab806b6aab01fb51e6affbe0ab292cdb773de35550089c6dae0ace7db0a72618
+size 236

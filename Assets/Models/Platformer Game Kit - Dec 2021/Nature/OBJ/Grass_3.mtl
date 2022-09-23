@@ -1,12 +1,3 @@
-# Blender MTL File: 'Grass_3.blend'
-# Material Count: 1
-
-newmtl Green_Light
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.250294 0.328747 0.018225
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
+version https://git-lfs.github.com/spec/v1
+oid sha256:27f8549855bc0694fedde4c28702bb78da8e8a0fb93d5e21901641c1d3962589
+size 240
