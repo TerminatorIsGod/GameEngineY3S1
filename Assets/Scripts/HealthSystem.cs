@@ -32,6 +32,9 @@ public class HealthSystem : MonoBehaviour
         if (amount == 0)
             amount = maxHealth;
         health += amount;
+
+        if (health > maxHealth)
+            health = maxHealth;
     }
 
     private void die()

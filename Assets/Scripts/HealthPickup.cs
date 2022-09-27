@@ -11,6 +11,7 @@ public class HealthPickup : MonoBehaviour
         if(collision.collider.tag == "Player")
         {
             collision.collider.gameObject.GetComponent<HealthSystem>().heal(healAmount);
+            Destroy(this.gameObject);
         }
     }
 }

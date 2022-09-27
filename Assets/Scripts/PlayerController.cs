@@ -64,6 +64,7 @@ public class PlayerController : MonoBehaviour
 
     private void Jump()
     {
+        checkGrounded();
         if (isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
@@ -80,7 +81,7 @@ public class PlayerController : MonoBehaviour
 
     private void checkGrounded()
     {
-        //make this function multithreaded?
+        Debug.Log(GetComponent<Rigidbody>().velocity.y);
         isGrounded = GetComponent<Rigidbody>().velocity.y == 0; //Physics.Raycast(transform.position, -Vector3.up, distanceToGround + 0.5f) && 
     }
 
@@ -88,6 +89,6 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.forward * move.y * Time.deltaTime * walkSpeed, Space.Self);
-        transform.Translate(Vector3.right * move.x * Time.deltaTime * walkSpeed, Space.Self);  
+        transform.Translate(Vector3.right * move.x * Time.deltaTime * walkSpeed, Space.Self);
     }
 }
