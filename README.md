@@ -1,6 +1,6 @@
 # GameEngineY3S1
 
-Nathan Tyborski - 100781410 - INFR3110U
+Nathan Tyborski - 100781410 - INFR 3110U - Game Engine Design & Implementation
 
 <h2>My Role</h2>
 My role within the GDW group is a developer. <br>
