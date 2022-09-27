@@ -9,7 +9,7 @@ I expect to contribute in making the main gameplay features for the game. For ou
 <h2>Weekly Updates</h2>
 
 <h3>Week 1</h3>
-During this week I worked on the input system, animations and a basic test area. The input system allows the player to control the game using both a keyboard and a mouse. The added animations includes idle and walk.
+During this week I worked on the input system, animations and a basic test area. The input system allows the player to control the game using both a keyboard and a gamepad. The added animations includes idle and walk.
 
 <h3>Week 2</h3>
 During week 2 I worked on adding a score manager, a health system, and pickups. The score manager will add score whenever the player picks up a coin. The health system will give any object health, they can take damage and heal. The pickups include things such as a heart to heal the player and a coin to add score. There is also a crab which when touched will deal damage.
